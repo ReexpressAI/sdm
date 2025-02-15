@@ -1,0 +1,27 @@
+############### Mac .gitignore (simplified) from https://github.com/github/gitignore/blob/master/Global/OSX.gitignore
+
+.DS_Store
+
+############### Python .gitignore (simplified) from https://github.com/github/gitignore/blob/master/Python.gitignore
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+################
+
+*.mlmodel
+*.mlmodelc
+*.mlpackage
+*.mlpackagec
+*.mlmodelkey
+*.mlarchive
+
+############### Reexpress file formats (versions 1 and 2)
+*.re1
+*.re2
+
+############### sdm support files
+*.pt
+*.npy
