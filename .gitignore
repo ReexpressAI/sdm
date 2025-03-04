@@ -25,3 +25,15 @@ __pycache__/
 ############### sdm support files
 *.pt
 *.npy
+
+############### ignore hidden files
+
+*~
+.*
+!.gitignore
+
+# Do not ignore the dockerignore files
+!.dockerignore
+
+# Do not ignore the Streamlit config directory
+!.streamlit
