@@ -8,11 +8,15 @@
 
 ## Paper
 
-A copy is available [here](/paper/sdm.pdf).
+A copy of the paper (arXiv v3) is available [here](/paper/sdm.pdf).
 
-## Code
+## Research Code and Replication Scripts
 
-A more general, production-ready codebase will follow (particularly w.r.t. the sdm network). The code in the `research_code` directory is provided for archival purposes to replicate the experiments of the research paper. See the README in that directory for instructions.
+The code in the `research_code` directory is provided for archival purposes to replicate the experiments of the research paper. See the README in that directory for instructions.
+
+## Applied Example as an MCP Server
+
+Separately, we provide an example of a pre-trained SDM estimator that you can use with existing LLMs to verify their instruction-following abilities. See the [Reexpress MCP Server repo](https://github.com/ReexpressAI/reexpress_mcp_server) for additional details.
 
 ## Citation
 
